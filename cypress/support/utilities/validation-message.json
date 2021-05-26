@@ -1,0 +1,5 @@
+{
+  "InvalidElement": "element not found!!!",
+  "InvalidJsonElement": "The object doesn't exists!!!",
+  "FileNotExists": "File not found!!!"
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "Group": "Applicant",
+    "Name": "vehicleMiles",
+    "Active": "TRUE",
+    "Mandatory": "TRUE",
+    "Sensitive": "TRUE",
+    "CoApplicantOnly": "TRUE",
+    "Order": "0",
+    "EntryType": "Data Entry",
+    "ValidationType": "Integer",
+    "Length": "10",
+    "Dropdown": "",
+    "Formula": "",
+    "XPath": "",
+    "Prepopulate": "TRUE",
+    "PrepopulateData": {
+      "PrepoulateFromValue": "TRUE",
+      "Value": "5000",
+      "PrepoulateFromData": "FALSE",
+      "Group": "",
+      "Field": ""
+    }
+  },
+  {
+    "Group": "Applicant",
+    "Name": "test",
+    "Active": "TRUE",
+    "Mandatory": "FALSE",
+    "Sensitive": "FALSE",
+    "CoApplicantOnly": "FALSE",
+    "Order": "0",
+    "EntryType": "Data Entry",
+    "ValidationType": "Integer",
+    "Length": "10",
+    "Dropdown": "",
+    "Formula": "",
+    "XPath": "",
+    "Prepopulate": "TRUE",
+    "PrepopulateData": {
+      "PrepoulateFromValue": "TRUE",
+      "Value": "5000",
+      "PrepoulateFromData": "FALSE",
+      "Group": "",
+      "Field": ""
+    }
+  }
+]

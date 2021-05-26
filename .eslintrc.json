@@ -1,0 +1,87 @@
+{
+  "plugins": [
+    "cypress",
+    "@cypress/json",
+    "@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:cypress/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "accessor-pairs": "error",
+    "block-scope-var": "error",
+    "complexity": "off",
+    "consistent-return": "error",
+    "curly": "error",
+    "default-case": "error",
+    "dot-location": "error",
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "guard-for-in": "error",
+    "no-alert": "error",
+    "no-caller": "error",
+    "no-div-regex": "error",
+    "no-else-return": "error",
+    "no-empty-label": "error",
+    "no-eq-null": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-fallthrough": "error",
+    "no-floating-decimal": "error",
+    "no-implicit-coercion": "off",
+    "no-implied-eval": "error",
+    "no-invalid-this": "error",
+    "no-iterator": "error",
+    "no-labels": "error",
+    "no-lone-blocks": "error",
+    "no-loop-func": "error",
+    "no-multi-spaces": "error",
+    "no-multi-str": "error",
+    "no-native-reassign": "error",
+    "no-new": "error",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-octal": "error",
+    "no-octal-escape": "error",
+    "no-param-reassign": "off",
+    "no-process-env": "error",
+    "no-proto": "error",
+    "no-redeclare": "error",
+    "no-return-assign": "error",
+    "no-script-url": "error",
+    "no-self-compare": "off",
+    "no-sequences": "error",
+    "no-throw-literal": "error",
+    "no-unused-expressions": "error",
+    "no-useless-call": "error",
+    "no-useless-concat": "error",
+    "no-void": "off",
+    "no-warning-comments": "error",
+    "no-with": "error",
+    "radix": "error",
+    "vars-on-top": "error",
+    "wrap-iife": "error",
+    "yoda": "error"
+  },
+  "env": {
+    "cypress/globals": true
+  },
+  "settings": {
+    "json/sort-package-json": false,
+    "json/ignore-files": [
+      "**/package-lock.json"
+    ],
+    "json/json-with-comments-files": [
+      "**/tsconfig.json",
+      ".vscode/**"
+    ]
+  }
+}

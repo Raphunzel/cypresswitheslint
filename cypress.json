@@ -1,0 +1,15 @@
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "enableCode": false,
+    "overwrite": true,
+    "html": true,
+    "json": false,
+    "video": false
+  },
+  "env": {
+    "url": "https://gmftraining.qa.defisolutions.com/ui/login/",
+    "userName": "ycherukuri",
+    "password": "Yespaniyol@9"
+  }
+}
